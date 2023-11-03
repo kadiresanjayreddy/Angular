@@ -1,0 +1,79 @@
+/* styles.css */
+
+/* Apply a background color to the body */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply a consistent font size and color to all text in the app */
+  .app-text {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  /* Apply a default link style */
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  /* Style for navigation links */
+  .nav-link {
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Style for buttons */
+  .button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  /* Style for input fields */
+  .input-field {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  /* Header style */
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Footer style */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Container style for content */
+  .content-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Apply responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .content-container {
+      padding: 10px;
+    }
+  }
+  

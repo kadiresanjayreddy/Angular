@@ -1,0 +1,13 @@
+<div class="book-container">
+    <h1>List of Books</h1>
+    <ul>
+      <li *ngFor="let book of books">
+        <!-- You can access the properties of each book -->
+        <h2>{{ book.title }}</h2>
+        <p>ID: {{ book.id }}</p>
+        <p>Pages: {{ book.pages }}</p>
+        <p>Release Date: {{ book.releaseDate }}</p>
+      </li>
+    </ul>
+  </div>
+  

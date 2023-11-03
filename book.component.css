@@ -1,0 +1,42 @@
+/* book.component.css */
+
+/* Container for the book component */
+.book-container {
+    background-color:cornflowerblue;
+    border: 1px solid #333333;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  /* Hover effect for the book container */
+  .book-container:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Title of the book */
+  .book-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  
+  /* ID of the book */
+  .book-id {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  /* Release date of the book */
+  .book-releaseDate {
+    color: #777;
+  }
+  
+  /* Number of pages */
+  .book-pages {
+    color: #777;
+  }
+  
